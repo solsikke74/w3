@@ -3,61 +3,63 @@
 <title>W3.CSS</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="blaa.css">
 <body>
 
-<div class="w3-container w3-teal">
-  <h1>Notater for W3.css</h1>
-</div>
-<p></p>
-<div class="w3-container">
-<a href="coloursw3.html">Farger</a>  
-<a href="Navigering.html">Navigering</a> 
-<a href="Tabeller.html">Tabeller</a>  
-</div>
-<div class="w3-container">
-    <h2>Tabeller</h2>
-    <p>-<em>color</em> classes to display a colored row:</p>
-  
-    <table class="w3-table-all">
-      <thead>
-        <tr class="w3-grey">
-          <th>Klasse</th>
-          <th>Definerer</th>
-        </tr>
-      </thead>
-      <tr>
-        <td>w3-table</td>
-        <td>Kontainer for en html tabell</td>
-      </tr>
-      <tr>
-        <td>w3-striped</td>
-        <td>Får en stripete tabell</td>
-      </tr>
-      <tr>
-        <td>w3-border</td>
-        <td>Du får kantlinjer</td>
-      </tr>
-      <tr>
-        <td>w3-bordered</td>
-        <td>Du får kantlinjer over alt</td>
-      </tr>
-      <tr>
-        <td>w3-centered</td>
-        <td>Alt i tabellen blir sentrert</td>
-      </tr>
-      <tr>
-        <td>w3-hoverable</td>
-        <td>Når du holder musa over, utheves linja</td>
-      </tr>
-      <tr>
-        <td>w3-table-all</td>
-        <td>Alle elementene er med</td>
-      </tr>
-    </table>
+<div class="w3-theme-light">
+    <div class="w3-container w3-theme-l1">
+        <h1>Notater for W3.css</h1>
+      </div>
+    <p></p>
+    <div class="w3-text-theme">
+    <a href="coloursw3.html">Farger</a>  
+    <a href="Navigering.html">Navigering</a> 
+    <a href="Tabeller.html">Tabeller</a>  
+    </div>
 
+    <div class="w3-container">
+        <h2 class="w3-text-theme">Tabeller</h2>
+        <table class="w3-table w3-bordered">
+            <thead">
+                <tr>
+                <th>Klasse</th>
+                <th>Definerer</th>
+                </tr>
+            </thead>
+            <tr>
+                <td>w3-table</td>
+                <td>Kontainer for en html tabell</td>
+            </tr>
+            <tr>
+                <td class="w3-striped-egen">w3-striped</td>
+                <td class="w3-striped-egen">Får en stripete tabell. Automatisk grå bakgrunnsfarge, men du kan overstyre denne ved å legge inn egne farger. </td>
+            </tr>
+            <tr>
+                <td>w3-border</td>
+                <td>Du får kantlinje under hver rad. </td>
+            </tr>
+            <tr>
+                <td class="w3-striped-egen">w3-bordered</td>
+                <td class="w3-striped-egen">Du får kantlinjer under hver rad og rundt resten av tabellen.  </td>
+            </tr>
+            <tr>
+                <td>w3-centered</td>
+                <td>All teksten i tabellen blir sentrert</td>
+            </tr>
+            <tr>
+                <td class="w3-striped-egen">w3-hoverable</td>
+                <td class="w3-striped-egen">Når du holder musa over, utheves linja</td>
+            </tr>
+            <tr>
+                <td>w3-table-all</td>
+                <td>Alle elementene er med</td>
+            </tr>
+        </table>
+    </div>
 <p></p>
-    <div class="w3-container w3-teal">
-  <p>My footer information</p>
+
+    <div class="w3-container w3-theme-l1">
+  <p p style="text-align:center"><a  href="index.html">Tilbake til startsiden</a></p>
 </div>
 
 </body>
